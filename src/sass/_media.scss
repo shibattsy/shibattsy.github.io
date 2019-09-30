@@ -7,6 +7,14 @@
         align-items: center;
         margin-top: 90px;
     }
+    &__icons{
+        width: 320px;
+    }
+    }
+    .header{
+        &__phone{
+            font-size: 17px;
+        }
     }
     .advantages{
         &__icons{
@@ -17,4 +25,27 @@
             margin-bottom: 50px;
         }
     }
+}
+@media (max-width:513px){
+    .promo{
+        &__header{
+            font-size: 25px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+    }
+    .header{
+        flex-direction: column;
+        &__official{
+            margin-top: 25px;
+        }
+        &__phone{
+            margin-top: 25px;
+        }
+    }
+    
+}
+@media (max-width:320px){
+    
 }
