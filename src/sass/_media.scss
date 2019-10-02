@@ -1,5 +1,5 @@
 @media (max-width:767px)
-{
+{ 
     .promo{
     &__wrapper{
         display: flex;
@@ -25,8 +25,11 @@
             margin-bottom: 50px;
         }
     }
+     
+    
 }
 @media (max-width:513px){
+    
     .promo{
         &__header{
             font-size: 25px;
@@ -44,6 +47,5 @@
             margin-top: 25px;
         }
     }
-    
 }
  
