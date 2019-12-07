@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex 7.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Тригонометрические функции</h3>
+    <label for="func">Функция</label>
+    <select name="func"  class="func">
+        <option value="sin">Синус</option>
+        <option value="cos">Косинус</option>
+        <option value="tan">Тангенс</option>
+    </select>
+    <h4>Введите диапазон углов в градусах</h4>
+    <label for="start">Начало</label>
+    <input type="number" name="start" class="start" required>
+    <br>
+    <label for="finish">Конец</label>
+    <input type="number" class="finish" name="finish" required>
+    <br>
+    <label for="step">Шаг</label>
+    <input type=number" name="step" class="step" required>
+    <br>
+    <button>Вычислить</button>
+    <script src="script.js"></script>
+</body>
+</html>
