@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex 7.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h3>Учет поступления товаров</h3>
+<table>
+    <tr>
+        <th>
+            Наименование товара
+        </th>
+        <th>
+            Цена за еденицу 
+        </th>
+        <th>
+            Количество
+        </th>
+        <th>
+            Стоимость
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Стол письменный
+        </td>
+        <td>
+            12000
+        </td>
+        <td>
+            5
+        </td>
+        <td>
+            60000
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Стол кухонный
+        </td>
+        <td>
+            8000
+        </td>
+        <td>
+            10
+        </td>
+        <td>
+            80000
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Стул
+        </td>
+        <td>
+            20
+        </td>
+        <td>
+            1200
+        </td>
+        <td>
+            24000
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Шкаф книжный
+        </td>
+        <td>
+            14200
+        </td>
+        <td>
+            4
+        </td>
+        <td>
+            56800
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            ИТОГО
+        </td>
+        <td class="value">
+            277600
+        </td>
+    </tr>
+</table>   
+<h5>Изменение цены и количества</h5>
+<label for="product">Товар</label>
+<select name="product" id="" class="product">
+    <option value="1">Стол письменный</option>
+    <option value="2">Стол кухонный</option>
+    <option value="3">Стул</option>
+    <option value="4">Шкаф книжный</option>
+</select>
+<br>
+    <label for="price">Цена</label>
+    <input type="text" name="price" class="price">
+    <br>
+    <label for="quantity">Количество</label>
+    <input type="text" name="quantity" class="quantity">
+    <br>
+    <button>Ввод</button>
+    <script src="script.js"></script>
+</body>
+</html>

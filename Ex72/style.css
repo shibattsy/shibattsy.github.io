@@ -1,0 +1,11 @@
+input{
+    margin-bottom: 10px;
+}
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;} 
+th {border: 1px solid grey;}
+td {border: 1px solid grey;}
+select{
+    margin-bottom: 10px;
+}
