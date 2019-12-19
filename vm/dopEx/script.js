@@ -36,9 +36,9 @@ reverse.addEventListener('click', function(){
 		checkR=1;
 		clearInterval(flex);
 		flex = setInterval(function() {  
-			f += s; 
-			  elem.style.left =  235 + sp.radius *Math.cos(f)+ 'px'; 
-			  elem.style.top =   235 + sp.radius *Math.sin(f)  + 'px';
+			f -= s; 
+			  elem.style.left =  235 + sp.radius *Math.sin(f)  + 'px'; 
+			  elem.style.top =   235 + sp.radius *Math.cos(f)  + 'px';
 		}, sp.speed);
 	}else{
 		checkR=0;
@@ -58,7 +58,7 @@ if(radius.value != 0 && check == 0){
 		f += s; 
 		  elem.style.left =  235 + sp.radius *Math.sin(f) + 'px'; 
 		  elem.style.top =   235 + sp.radius *Math.cos(f) + 'px';
- 
+		
 	}, sp.speed);
 	
 }
