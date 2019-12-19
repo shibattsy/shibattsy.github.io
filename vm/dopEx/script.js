@@ -31,7 +31,7 @@ figure.addEventListener('change', function(){
 	elem.classList.add(figure.value);	
 });
 reverse.addEventListener('click', function(){
-	f=0;
+	check=1;
 	if(checkR==0){
 		checkR=1;
 		clearInterval(flex);
