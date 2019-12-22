@@ -18,7 +18,7 @@ let start=document.querySelector('.start'),
 	function isNumber(n) { 
 		return !isNaN(parseFloat(n)) && !isNaN(n - 0); }
 radius.addEventListener('change', function(){
-	if(radius.value<50 ||!(isNumber(radius.value))||radius.value>350){
+	if(radius.value<-10 ||!(isNumber(radius.value))||radius.value>350){
 		alert("Неправильный ввод");
 		radius.value=250;
 	}else{
