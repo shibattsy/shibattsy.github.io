@@ -46,4 +46,13 @@ body {
 	
 }
  	
+.mid{
+	position: absolute;
+	width: 30px;
+	left: 652px;
+	top: 334px;
+	height:30px;
+	background: #2ceb06;
+	border: 3px solid rgb(241, 238, 3);
+	border-radius: 50px;
 }
