@@ -21,16 +21,16 @@ function isNumber(n) {
             g = elements[product].firstElementChild;
             pr.textContent = price + '';
             qua.textContent = quantity + '';
-            sum.textContent = price * quantity + '';
+            sum.textContent = (price * quantity).toFixed(2) + '';
             elem.appendChild(g);
             elem.appendChild(pr);
             elem.appendChild(qua);
             elem.appendChild(sum);
             elements[product].replaceWith(elem);
         for( let i = 1; i < 5; i++){
-                sumVal += +elements[i].lastElementChild.textContent;
+                sumVal += +elements[i].lastElementChild.textContent.toFixed(2);
             } 
-            val.textContent = sumVal;
+            val.textContent = sumVal.toFixed(2);
        
         }else{
             alert('Не правильный ввод');
