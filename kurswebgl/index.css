@@ -1,0 +1,19 @@
+ .wrapper{
+
+    margin: 0 auto;
+    width: 800px;
+    color:#E1162E;
+
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    
+ }
+ table{
+    color:#E1DA00;
+ }
+ body{
+    background-image: url(bg.jpg);
+ }
