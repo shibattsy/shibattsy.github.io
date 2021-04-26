@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" onsubmit="return false;" name="form1">
+        <p><input type="text" name="treestructure" value="3 2 3 2 3 3 1 3 2 2 1 2 2 3 2 3 2 3 2 2 3 2 2 2 3 3"></p>
+        <p><input type="text" name="utilvalues" value="5 4 7 5 3 4 1 7 6 7 6 8 9 8 8 7 9 4 5 3 1 2 0 1 7 6 9 8 2 5 5 4 5 2 1 2"></p>
+        <p><input type="button" value="submit" onclick="create_game_tree()"></p>
+    </form>
+    <button onclick="run_minimax()">MinMax</button>
+    <button onclick="run_alphabeta_search()">AB</button>
+    <canvas id="canvasab" width="800" height="600"></canvas>
+    <script src="index.js" ></script>
+</body>
+</html>
